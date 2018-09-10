@@ -5,7 +5,7 @@ def begins_with_r(array)
   #binding.pry
 end
 
-begins_with_r do |word|
+begins_with_r(array) do |word|
   word.starts_with?("r", "R")
 end
  
