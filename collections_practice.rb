@@ -1,7 +1,7 @@
 require 'pry'
 
 def begins_with_r(array)
-  yield.all? if block_given?
+  array.all? yield  if block_given?
   #binding.pry
 end
 
