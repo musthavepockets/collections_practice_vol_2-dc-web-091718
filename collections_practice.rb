@@ -1,6 +1,7 @@
 require 'pry'
 
-def begins_with_r(array) {|word| word.starts_with?("r", "R")}
+= {|word| word.starts_with?("r", "R")}
+def begins_with_r(array) 
   array.all? yield  if block_given?
   #binding.pry
 end
